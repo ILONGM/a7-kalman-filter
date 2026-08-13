@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from kalman import predire, corriger
 
 DEPLACEMENT = 1.0              # ce qu'on commande à chaque pas (m)
-N_PAS = 50
+N_PAS = 500
 
 # le bruit RÉEL du monde — sert uniquement à tirer les nombres aléatoires
 VARIANCE_MOUVEMENT_REELLE = 0.04    # les roues dérapent de ±0.2 m par pas
